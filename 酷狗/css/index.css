@@ -1,0 +1,246 @@
+#kugou_box {
+	width: 1349px;
+	margin: 0 auto;
+}
+.header,.nav {
+	width: 1000px;
+	margin: 0 auto;
+}
+.header h1 {
+	width: 154px;
+	height: 78px;
+}
+.logo {
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-indent: -9999px;
+	background: url(../images/logo.png) no-repeat;
+}
+.input-text {
+	margin-left: 40px;
+	border: 1px solid #ccc;
+	width: 298px;
+	height: 34px;
+	margin-top: 20px;
+	position: relative;
+}
+.input-text input {
+	border: none;
+	line-height: 34px;
+	margin-left: 15px;
+	width: 250px;
+}
+.input-text a {
+	position: absolute;
+	left: 265px;
+	top: 1px;
+	width: 33px;
+	height: 33px;
+	background: url(../images/search.png) no-repeat center;
+}
+.header ul {
+	width: 246px;
+	height: 21px;
+	border-right: 1px solid #e6e6e6;
+	margin-top: 30px;
+	margin-left: 120px;
+}
+.header ul li {
+	margin-right: 30px;
+	line-height: 21px;
+}
+
+.header ul li a {
+	color: #777;
+	font-size: 13px;
+}
+.header ul li a:hover {
+	color: orange;
+}
+.login-register {
+	width: 111px;
+	margin-top: 25px;
+}
+.login-register a {
+	width: 48px;
+	height: 28px;
+	border: 1px solid #dbdbdb;
+	border-radius: 2px;
+	text-align: center;
+	line-height: 28px;
+	font-size: 13px;
+	color: #777;
+}
+.login-register a:hover {
+	background: #169af3;
+	color: #fff;
+	border: none;
+}
+.nav-banner {
+	background: #2c323b;
+}
+.nav-left {
+	width: 442px;
+}
+.nav-left li {
+	height: 55px;
+	line-height: 55px;
+}
+.nav-left li a {
+	padding: 0 30px;
+	height: 100%;
+	display: block;
+	color: #ddd;
+	font-size: 16px;
+}
+.nav-left li a:hover {
+	background: #0c8ed9;
+}
+.nav-left .last {
+	position: relative;
+}
+.nav-left .last img {
+	position: absolute;
+	right: 0;
+	top: 24px;
+}
+
+.nav-right li {
+	margin-right: 30px;
+	height: 55px;
+	line-height: 55px;
+}
+.nav-right .last {
+	margin-right: 0;
+}
+.nav-right li a {
+	color: #bbb;
+	font-size: 14px;
+	padding-left: 20px;
+	background: url(../images/star.png) no-repeat left;
+}
+.nav-right li a:hover {
+	color: orange;
+}
+.banner-ul {
+
+}
+.banner-ul li {
+	width: 100%;
+	float: left;
+	height: 385px;
+}
+.banner-download {
+	width: 783px;
+	height: 60px;
+	margin: 0 auto;
+}
+.banner-download a {
+	width: 142px;
+	display: inline-block;
+	font-size: 15px;
+	color: #fff;
+	margin-left: 56px;
+	margin-top: 20px;
+	vertical-align: top;
+	padding-left: 62px;
+	background: url(../images/download.png) no-repeat ;
+}
+.banner-download span {
+	width: 1px;
+	height: 18px;
+	background: #3a638f;
+	display: inline-block;
+	margin-top: 24px;
+	vertical-align: top;
+}
+.jingxuan {
+	width: 1000px;
+	margin: 10px auto 0;
+}
+.jingxuan-left {
+	width: 650px;
+}
+.gedan {
+	width: 100%;
+	height: 90px;
+	line-height: 90px;
+}
+.command-title {
+	font-size: 28px;
+}
+.command-title span {
+	color: #0299f2;
+}
+.command-title i {
+	color: #666;
+}
+.gedan a {
+	color: #999;
+	font-size: 14px;
+}
+.middle-img {
+	margin-left: 5px;
+	width: 160px;
+}
+.big {
+	position: relative;
+}
+.command-detail {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 44px; 
+	width: calc(100% - 8px);
+	background: rgba(0,0,0,0.5);
+	padding-top: 6px;
+	padding-left: 8px;
+}
+.command-detail h2 {
+	font-size: 15px;
+	color: #fff;
+	width: 100px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+}
+.command-detail p {
+	font-size: 14px;
+	color: #cfcfcf;
+	width: 100px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.middle-img1 {
+	margin-bottom: 5px;
+	display: block;
+	position: relative;
+}
+.jingxuan-right {
+	width: 320px;
+}
+.bangdang-first {
+	display: block;
+	width: 100%;
+	background: #f6f6f6;
+	margin-bottom: 15px;
+}
+.songs-list {
+	width: 170px;
+	margin: 18px 0 13px 10px;
+}
+.songs-list h2 {
+	font-size: 15px;
+	font-weight: bold;
+}
+.songs-list p {
+	font-size: 14px;
+	color: #555;
+	margin-top: 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
